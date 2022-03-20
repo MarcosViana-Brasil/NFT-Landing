@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import ScrollToTop from '../src/components/ScrollToTop'
+import Navbar from '../src/components/Navbar'
+import Home from '../src/components/Home'
+import Free from '../src/components/Free'
+import Clients from '../src/components/Clients'
+import SuperRare from '../src/components/SuperRare'
+import Release from '../src/components/Release'
+import Like from '../src/components/Like'
+import Signup from '../src/components/Signup'
+import Footer from '../src/components/Footer'
+
+import './scss/index.scss'
+
+export default function App() {
+    return (
+        <div className="app-container">
+            <ScrollToTop />
+            <Navbar />
+            <Home />
+            <Free />
+            <Clients />
+            <SuperRare />
+            <Release />
+            <Like />
+            <Signup />
+            <Footer />
+        </div>
+    )
 }
-
-export default App;
