@@ -1,12 +1,9 @@
 import React from 'react'
 import super1 from '../assets/super5.png'
 import super2 from '../assets/super6.png'
-import super3 from '../assets/super7.png'
+import super3 from '../assets/super10.png'
 import super4 from '../assets/super8.png'
-import super5 from '../assets/super9.png'
-import super6 from '../assets/super10.png'
-import super7 from '../assets/super11.png'
-import super8 from '../assets/super13.png'
+
 import Card from './Card'
 
 export default function SuperRare() {
@@ -41,38 +38,6 @@ export default function SuperRare() {
             title: 'Saint Woman',
             price: 3.05,
             tag: 12994,
-            time: 1,
-        },
-        {
-            image: super5,
-            series: 'Gloop Series',
-            title: 'Saint Woman',
-            price: 3.07,
-            tag: 12995,
-            time: 1,
-        },
-        {
-            image: super6,
-            series: 'Gloop Series',
-            title: 'Saint Woman',
-            price: 3.07,
-            tag: 12997,
-            time: 1,
-        },
-        {
-            image: super7,
-            series: 'Gloop Series',
-            title: 'Saint Woman',
-            price: 3.06,
-            tag: 12998,
-            time: 1,
-        },
-        {
-            image: super8,
-            series: 'Gloop Series',
-            title: 'Saint Woman',
-            price: 3.1,
-            tag: 12999,
             time: 1,
         },
     ]

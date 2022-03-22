@@ -9,7 +9,7 @@ export default function Home() {
                 <div className="content">
                     <p className="sub-title">Lançamento em breve</p>
                     <h1 className="title">Um NFT como nenhum outro</h1>
-                    <p className="descritpion">
+                    <p className="description">
                         Não perca o lançamento do nosso novo NFT. Inscrever-se
                         abaixo para receber atualizações quando entrarmos ao
                         vivo
